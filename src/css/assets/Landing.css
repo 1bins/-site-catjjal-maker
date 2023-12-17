@@ -1,0 +1,66 @@
+/*-------------------------------------------------
+Author : WB,Seo
+Create date : 2023. 12. 16.
+-------------------------------------------------*/
+/* ===========
+   Landing
+   =========== */
+@keyframes catAnime {
+    50% {transform: rotate(8deg);}
+}
+#landing {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100vw; height: 100vh;
+    background: #f6f6f6 url(../../images/mainBg-lines.png) no-repeat center/cover;
+    z-index: 99;
+}
+#landing.landing-hide {
+    opacity: 0;
+    transform: scale(1.1);
+    pointer-events: none;
+    transition: all .6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.landing-inner .title-box {
+    position: absolute;
+    top: 53%;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+}
+.landing-inner .btn-landing-close {
+    display: block;
+    width: 246px; height: 58px;
+    margin: 59px auto 0;
+    font-size: 1.8rem; color: #28af81;
+    font-weight: 700;
+    background: #fff;
+    border: 1px solid #28af81;
+    border-radius: 29px;
+    transition: transform .2s;
+}
+.landing-inner .btn-landing-close:hover {transform: translateY(-13px);}
+h1 {
+    position: relative;
+    margin: 0;
+    font-size: 13rem; color: #28af81;
+    font-weight: 400;
+    line-height: 146px;
+}
+h1 .shadow {
+    position: absolute;
+    top: 8px; left: 0;
+    width: 100%;
+    color: #f4c821;
+    z-index: -1;
+}
+.landing-inner .catImgs-box {
+    position: absolute;
+    width: 100%; height: 100vh;
+    max-width: 1620px; min-width: 1080px;
+}
+.landing-inner .catImgs-box img {position: absolute; animation: catAnime .8s step-end infinite alternate;}
+.landing-inner .catImgs-box img:nth-child(1) {bottom: 59px; right: 0;}
+.landing-inner .catImgs-box img:nth-child(2) {bottom: 42px; left: 46px;}
+.landing-inner .catImgs-box img:nth-child(3) {top: 28px; left: 0;}
+.landing-inner .catImgs-box img:nth-child(4) {top: 30px; right: 80px;}

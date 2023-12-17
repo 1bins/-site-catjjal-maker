@@ -1,0 +1,87 @@
+@charset "utf-8";
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
+
+@font-face {
+    font-family: 'JalnanGothic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/JalnanGothic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*-------------------------------------------------
+Author : WB,Seo
+Create date : 2023. 12. 16.
+-------------------------------------------------*/
+
+/* =================================
+    RESET
+=================================== */
+* {box-sizing: border-box; margin: 0; padding: 0;}
+body {
+    font-family: 'Pretendard', sans-serif;
+    overflow-x: hidden;
+    color: #161616;
+    background: #fff6f1;
+}
+ul, ol, li {list-style: none;}
+hr {display: none;}
+a {text-decoration: none; color: #333;}
+b {font-weight: 700;}
+button {padding: 0; border: none; background: none; cursor: pointer;}
+img {border: none; -webkit-user-drag: none;}
+html {font-size: 0.625em;}
+.clear:after {content: ""; clear: both; display: block;}
+.blind {position: absolute; top: -9999px; left: -9999px;}
+input,
+textarea,
+select,
+button {
+    font-family: 'Pretendard', sans-serif;
+    appearance: none;
+    -webkit-appearance: none;
+}
+input::placeholder,
+textarea::placeholder {color: #b0b0b0;}
+input[type="checkbox"]:checked,
+select {
+    appearance: auto;
+    -webkit-appearance: auto;
+}
+table {
+    width: 100%;
+    border-spacing: 0;
+    table-layout: fixed;
+}
+caption, figcaption {
+    visibility: hidden;
+    overflow: hidden;
+    width: 0; height: 0;
+    font-size: 0;
+    line-height:0
+}
+.--font-title {font-family: 'JalnanGothic';}
+.--pos-center {
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+}
+.--pos-centerX {
+    left: 50%;
+    transform: translateX(-50%);
+}
+.--pos-centerY {
+    top: 50%;
+    transform: translateY(-50%);
+}
+.--height-fixed {
+    height: 100vh;
+    min-height: 768px;
+}
+body::-webkit-scrollbar {
+    width: 8px;
+    background: #fbede4;
+}
+body::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background: rgba(0,0,0,.2);
+}
+body::-webkit-scrollbar-thumb:hover {background: rgba(0,0,0,.3);}

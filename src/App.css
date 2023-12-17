@@ -1,0 +1,151 @@
+/*-------------------------------------------------
+Author : WB,Seo
+Create date : 2023. 12. 17.
+-------------------------------------------------*/
+/* ===========
+   MainCont
+   =========== */
+.mainCont-inner {
+    padding: 64px 0 70px;
+    text-align: center;
+}
+
+/* ===========
+   Title
+   =========== */
+.mainCont-inner .title-area .sub {
+    margin-bottom: 16px;
+    font-size: 1.5rem;
+    letter-spacing: .7rem;
+}
+.mainCont-inner .title-area h2 {
+    font-size: 3.8rem;
+    font-weight: 400;
+    letter-spacing: -0.12rem;
+}
+.mainCont-inner .title-area .point {position: relative;}
+.mainCont-inner .title-area .point:after {
+    position: absolute;
+    content: '';
+    bottom: 2px; left: 50%; transform: translateX(-50%);
+    width: 106%; height: 18px;
+    background: rgba(118,72,241,.3);
+    z-index: -1;
+}
+
+/* ===========
+   FormBox
+   =========== */
+.mainCont-inner .form-area {margin: 25px 0 27px;}
+.mainCont-inner .form-area .form-box {
+    display: flex;
+    margin-bottom: 22px;
+    gap: 0 10px;
+    justify-content: center;
+}
+.mainCont-inner .form-area .input-box {
+    position: relative;
+    width: 260px;
+}
+.mainCont-inner .form-area input {
+    width: 100%; height: 42px;
+    padding-left: 10px;
+    font-size: 1.6rem; color: #575757;
+    border: none;
+    border-bottom: 1px solid #aaa;
+    background: none;
+    outline: none;
+}
+.mainCont-inner .form-area input::placeholder {color: #999;}
+.mainCont-inner .form-area .input-box .line {
+    position: absolute;
+    bottom: 0; left: 0;
+    width: 100%; height: 2px;
+    background: #7648f1;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: all .6s;
+}
+.mainCont-inner .form-area input:focus + .line {
+    transform: scaleX(1);
+}
+.mainCont-inner .form-area button {
+    width: 86px; height: 42px;
+    font-size: 1.5rem; color: #fff;
+    background: #7648f1;
+    border: 2px solid #5d31d4;
+    border-radius: 6px;
+}
+.mainCont-inner .form-area .alert-txt {
+    font-size: 1.6rem; color: #7648f1;
+    font-weight: 700;
+}
+
+/* ===========
+   MainCat
+   =========== */
+.mainCont-inner .mainCat-area {
+    position: relative;
+    width: 380px;
+    margin: 0 auto 37px;
+}
+.mainCont-inner .mainCat-area .img-box {
+    display: flex;
+    width: 100%; height: 380px;
+    justify-content: center;
+    align-items: center;
+    background: #fbede4;
+    border-radius: 30px;
+}
+.mainCont-inner .mainCat-area .img-box img {
+    max-width: 300px; max-height: 300px;
+    object-fit: contain;
+}
+.mainCont-inner .mainCat-area button {
+    position: absolute;
+    bottom: 23px; right: 23px;
+    padding: 0;
+    width: 38px; height: 38px;
+    font-size: 2rem;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* ===========
+   HeartList / HeartItem
+   =========== */
+.mainCont-inner .list-area {
+    padding: 28px 42px 34px;
+    width: 780px;
+    margin: 0 auto;
+    border-radius: 30px;
+    background: #fff;
+}
+.mainCont-inner .list-area .dsc {
+    margin-bottom: 19px;
+    font-size: 1.5rem; color: #999;
+    text-align: left;
+}
+.mainCont-inner .list-area ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 13px 13px;
+    max-height: 130px;
+    overflow-y: auto;
+}
+.mainCont-inner .list-area ul::-webkit-scrollbar {
+    width: 6px;
+    background: #fbede4;
+}
+.mainCont-inner .list-area ul::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    background: rgba(0,0,0,.1);
+}
+.mainCont-inner .list-area ul::-webkit-scrollbar-thumb:hover {background: rgba(0,0,0,.15);}
+.mainCont-inner .list-area ul li {width: 100px;}
+.mainCont-inner .list-area ul li a {display: block;}
+.mainCont-inner .list-area ul li a img {
+    width: 100%; height: 100px;
+    object-fit: cover;
+}
