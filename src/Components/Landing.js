@@ -1,11 +1,16 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import '../css/assets/Landing.css';
 
-const Landing = () => {
+const Landing = ({heartItems}) => {
     const [landingOpen, setLandingOpen] = useState("");
     const landingClose = () => {
         setLandingOpen("landing-hide");
     };
+    useEffect(()=>{
+        if(heartItems !== null){
+            setLandingOpen("landing-hide");
+        }
+    },[]);
     return (
         <section id="landing" className={landingOpen}>
             <div className="landing-inner">

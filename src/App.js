@@ -65,15 +65,16 @@ function App() {
 
   // 저장한 짤 전체 지우기
   const handleRemoveItems = () => {
-    if(window.confirm("여태 모아둔 고양이들이 전부 사라집니다.\n계속 하시겠습니까?")){
+    if(window.confirm("여태 데려온 고양이들이 전부 사라집니다.\n계속 하시겠습니까?")){
       setHeartItems([]);
       localStorage.removeItem("heartItems");
     }else{return}
   }
+  const getHeartItems = jsonLocalStorage.getItem("heartItems");
 
   return (
     <div className="App">
-      <Landing></Landing>
+      <Landing heartItems={getHeartItems}></Landing>
       <section id="mainCont">
         <div className="mainCont-inner">
           <Title textCounter={textCounter}></Title>
