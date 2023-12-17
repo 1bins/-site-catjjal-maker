@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/catjjal-maker/static/css/main.ba1a66a5.css",
+    "main.css": "/catjjal-maker/static/css/main.64b2245a.css",
     "main.js": "/catjjal-maker/static/js/main.3717feae.js",
     "static/media/mainBg-lines.png": "/catjjal-maker/static/media/mainBg-lines.6cc443e00587764960b7.png",
     "index.html": "/catjjal-maker/index.html",
-    "main.ba1a66a5.css.map": "/catjjal-maker/static/css/main.ba1a66a5.css.map",
+    "main.64b2245a.css.map": "/catjjal-maker/static/css/main.64b2245a.css.map",
     "main.3717feae.js.map": "/catjjal-maker/static/js/main.3717feae.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba1a66a5.css",
+    "static/css/main.64b2245a.css",
     "static/js/main.3717feae.js"
   ]
 }
