@@ -51,6 +51,8 @@ function App() {
     jsonLocalStorage.setItem("heartItems", updateItems);
   }
 
+  console.log(heartItems);
+
   // MainCat 초기 설정
   const initCat = async () => {
     const initImg = await fetchCat("First CAT");
@@ -61,6 +63,14 @@ function App() {
   // 타이틀 설정
   const textCounter = counter === null ? "" : <span className="point">{counter}번째</span>;
 
+  // 저장한 짤 전체 지우기
+  const handleRemoveItems = () => {
+    if(window.confirm("여태 모아둔 고양이들이 전부 사라집니다.\n계속 하시겠습니까?")){
+      setHeartItems([]);
+      localStorage.removeItem("heartItems");
+    }else{return}
+  }
+
   return (
     <div className="App">
       <Landing></Landing>
@@ -69,7 +79,7 @@ function App() {
           <Title textCounter={textCounter}></Title>
           <FormBox onMainCatUpdate={handleMainCatUpdate}></FormBox>
           <MainCat mainImg={mainImg} heartItems={heartItems} onheartClick={handleHeartClick}></MainCat>
-          <HeartList heartItems={heartItems}></HeartList>
+          <HeartList heartItems={heartItems} onRemoveItems={handleRemoveItems}></HeartList>
         </div>
       </section>
     </div>

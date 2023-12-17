@@ -122,10 +122,22 @@ Create date : 2023. 12. 17.
     border-radius: 30px;
     background: #fff;
 }
-.mainCont-inner .list-area .dsc {
+.mainCont-inner .list-area .head-box {
+    display: flex;
     margin-bottom: 19px;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainCont-inner .list-area .dsc {
     font-size: 1.5rem; color: #999;
     text-align: left;
+}
+.mainCont-inner .list-area .head-box button {
+    padding: 3px 11px;
+    font-size: 1.4rem; color: #999;
+    background: #f6f6f6;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 .mainCont-inner .list-area ul {
     display: flex;
