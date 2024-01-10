@@ -17,18 +17,18 @@
 <br/>
 
 ### 인트로 화면을 시작으로 고양이짤을 시작해보아요
-![intro](https://github.com/1bins/catjjal-maker/assets/144764686/57ee065a-09e0-4d34-936a-29421f75974a)
+<img src="./public/catJJalMaker/intro.gif" width="80%">
 
 ### 원하는 값을 입력하고 입력한 값이 적힌 새로운 랜덤 고양이짤을 받아볼 수 있어요
-![create](https://github.com/1bins/catjjal-maker/assets/144764686/b7e1aac9-6e3e-4857-a432-a40a444f8def)
+<img src="./public/catJJalMaker/create.gif" width="80%">
 <blockquote>외국API이다보니 영어만 입력이 가능해요.<br>
 빈 값이나 한글이 들어갈 경우 실행되지 않고, 안내 문구가 나타나요.<br>
 또한, 내가 몇 번이나 고양이짤을 불러왔는지 타이틀을 통해 확인할 수 있어요.</blockquote>
 
 ### 해당 짤이 마음에 들면 하트를 눌러 로컬 저장소에 저장할 수 있어요
-![heart](https://github.com/1bins/catjjal-maker/assets/144764686/df1f0658-bd6d-432b-ba5b-c126c7baeb75)
+<img src="./public/catJJalMaker/heart.gif" width="80%">
 <blockquote>짤을 저장할 경우 앞으로 사이트를 방문해도 인트로 화면이 나타나지 않아요</blockquote>
 
 ### 로컬 저장소를 비우고 싶다면 휴지통 기능을 이용하여 비울 수 있어요
-![delete](https://github.com/1bins/catjjal-maker/assets/144764686/2fc34fd9-d84e-4b9a-be05-5f79fe878534)
+<img src="./public/catJJalMaker/delete.gif" width="80%">
 <blockquote>저장한 짤이 하나도 없다면 새로고침을 하면 다시 인트로 화면이 나타나요.</blockquote>
