@@ -3,7 +3,7 @@
 <br/>
 
 # 갖고 싶어 고양이 
-<a href="https://1bins.github.io/catjjal-maker/" title="새 창으로 열기" target="_blank">https://1bins.github.io/catjjal-maker</a>
+<a href="https://1bins.github.io/catjjal-maker/" title="새 창으로 열기" target="_blank">갖고싶어 고양이짤 바로가기</a>
 <blockquote>https://cataas.com/ AIP를 사용하여 랜덤 고양이 짤을 불러온 후 내가 입력한 값이 해당 이미지에 저장되는 리액트 앱입니다.</blockquote>
 <br/>
 
