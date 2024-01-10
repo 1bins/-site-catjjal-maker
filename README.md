@@ -1,4 +1,4 @@
-![intro](https://github.com/1bins/catjjal-maker/assets/144764686/45fdb5ee-78fa-4fcb-b7c4-4c8a75513ad4)
+<img src="./public/catJJalMaker/intro.png">
 
 <br/>
 
