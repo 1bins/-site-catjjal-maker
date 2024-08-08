@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/catjjal-maker/static/css/main.64b2245a.css",
-    "main.js": "/catjjal-maker/static/js/main.85d38cac.js",
-    "static/media/mainBg-lines.png": "/catjjal-maker/static/media/mainBg-lines.6cc443e00587764960b7.png",
-    "index.html": "/catjjal-maker/index.html",
-    "main.64b2245a.css.map": "/catjjal-maker/static/css/main.64b2245a.css.map",
-    "main.85d38cac.js.map": "/catjjal-maker/static/js/main.85d38cac.js.map"
+    "main.css": "/-site-catjjal-maker/static/css/main.3fdff22a.css",
+    "main.js": "/-site-catjjal-maker/static/js/main.8b60f30a.js",
+    "static/media/mainBg-lines.png": "/-site-catjjal-maker/static/media/mainBg-lines.6cc443e00587764960b7.png",
+    "index.html": "/-site-catjjal-maker/index.html",
+    "main.3fdff22a.css.map": "/-site-catjjal-maker/static/css/main.3fdff22a.css.map",
+    "main.8b60f30a.js.map": "/-site-catjjal-maker/static/js/main.8b60f30a.js.map"
   },
   "entrypoints": [
-    "static/css/main.64b2245a.css",
-    "static/js/main.85d38cac.js"
+    "static/css/main.3fdff22a.css",
+    "static/js/main.8b60f30a.js"
   ]
 }
